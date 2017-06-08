@@ -18,7 +18,7 @@ from bs4 import BeautifulSoup
 root = "E://Python//_requests_study//"	# 根目录
 
 class ImgSpider(scrapy.Spider):
-    name = "ing_2"
+    name = "img_2"
     # allowed_domains = ["www.talkingdata.com"]
     start_urls = ['http://mi.talkingdata.com/reports.html']
     # global root
